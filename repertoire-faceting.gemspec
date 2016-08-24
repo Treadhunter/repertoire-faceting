@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency('rails', '>=3.2.11')
   s.add_dependency('jquery-rails')
-  s.add_dependency('pg', '>=0.11', '<=0.18')
+  s.add_dependency('pg', '>=0.11', '<=0.18.4')
 
   s.post_install_message = <<-POST_INSTALL_MESSAGE
   #{'*'*80}
